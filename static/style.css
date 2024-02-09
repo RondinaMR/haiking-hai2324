@@ -15,14 +15,18 @@ html, body, input.textarea {
 }
 
 .disclaimer {
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  bottom: 95%;
   width: 100%; 
   text-align: center; 
+  color: green;
 }
 
 .sfondo{
   background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .container {
@@ -49,6 +53,7 @@ html, body, input.textarea {
 
 .self .msg {
   border-top-left-radius: 0;
+  background-color: #fff;
 }
 
 .self:before {
