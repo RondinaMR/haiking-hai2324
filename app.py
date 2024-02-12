@@ -32,6 +32,7 @@ def detect_intent():
     # print(response.query_result.parameters['geo-city'])
 
     # reply to the POST request: the textual response is in "fullfilment"
+    print(response.query_result.fulfillment_text)
     return response.query_result.fulfillment_text
 
 if __name__ == '__main__':
