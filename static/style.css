@@ -116,7 +116,7 @@ html, body, input.textarea {
 input.textarea {
   font-size: 0.9rem;
   position: fixed;
-  bottom: 35px;
+  bottom: 0px;
   left: 0;
   right: 0;
   width: 90%;
